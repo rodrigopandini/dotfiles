@@ -29,13 +29,17 @@ root: ~/
 
 windows:
   - editor:
-      layout: ecbb,136x42,0,0[136x38,0,0{113x38,0,0,0,22x38,114,0[22x19,114,0,7,22x18,114,20,8]},136x3,0,39,4]
+      layout: f8c7,144x42,0,0[144x33,0,0{117x33,0,0,0,26x33,118,0[26x16,118,0,4,26x16,118,17,5]},144x8,0,34,6]
       panes:
         - vim
-        - cd ~/devil
-        - ls
-        -
+        - cd ~/projects && clear
+        - cd ~/projects && clear
+        - 
   - server: 
+      layout: main-vertical
+      panes:
+        - cd ~/projects && clear
+        - cd ~/projects && clear
   - logs:
   - extras: 
       layout: main-vertical
