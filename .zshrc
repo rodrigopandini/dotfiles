@@ -94,3 +94,7 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 DISABLE_AUTO_TITLE=true
 
 alias mix="mux idex"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
