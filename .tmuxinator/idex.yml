@@ -29,10 +29,9 @@ root: ~/
 
 windows:
   - editor:
-      layout: f8c7,144x42,0,0[144x33,0,0{117x33,0,0,0,26x33,118,0[26x16,118,0,4,26x16,118,17,5]},144x8,0,34,6]
+      layout: e855,144x42,0,0[144x36,0,0{122x36,0,0,0,21x36,123,0,4},144x5,0,37,6]
       panes:
         - vim
-        - cd ~/projects && clear
         - cd ~/projects && clear
         - 
   - server: 
