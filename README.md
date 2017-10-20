@@ -8,7 +8,7 @@ Terminal -> Profile Preferences:
 - Text color: #1ec503
 
 Update/Upgrade:  
-`sudo apt-get upgrade`
+`sudo apt-get upgrade`  
 `sudo apt-get update`
 
 Install [cURL](https://curl.haxx.se/):  
@@ -61,9 +61,11 @@ https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 Clone github projects  
 
-Install programs: Slack | Spotify | Code | Insonia  
+Install programs:  
+Slack | Spotify | Code | Insonia  
 
-Install browsers: Chrome | Firefox (Dev) | Opera  
+Install browsers:  
+Chrome | Firefox (Dev) | Opera  
 
 For fun:  
 Install [cmatrix](http://www.asty.org/cmatrix/)  
