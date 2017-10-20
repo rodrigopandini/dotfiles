@@ -93,8 +93,13 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 
 DISABLE_AUTO_TITLE=true
 
-alias mix="mux idex"
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias chrome="/usr/bin/google-chrome"
+
+alias mix="mux idex"
+alias tks="tmux kill-server"
+alias gtl="git log --graph --full-history --all --color --pretty=format:'%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s'"
+alias cool="/home/pandini/projects/learning/cool-retro-term/cool-retro-term"
