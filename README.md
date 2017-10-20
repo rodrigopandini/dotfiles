@@ -7,10 +7,6 @@ Terminal -> Profile Preferences:
 - Use transparent background: ~15%
 - Text color: #1ec503
 
-Update/Upgrade:  
-`sudo apt-get upgrade`  
-`sudo apt-get update`
-
 Install [cURL](https://curl.haxx.se/):  
 `sudo apt-get install curl`
 
@@ -51,9 +47,11 @@ Install [NVM](https://github.com/creationix/nvm):
 `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash`
 
 Install [Yarn](https://yarnpkg.com/lang/en/docs/install/):  
-`curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`  
-`sudo apt-get update && sudo apt-get install yarn`
+```
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list  
+sudo apt-get update && sudo apt-get install yarn
+```
 
 Add ssh for github:  
 https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/  
@@ -70,3 +68,7 @@ Chrome | Firefox (Dev) | Opera
 For fun:  
 Install [cmatrix](http://www.asty.org/cmatrix/)  
 Install [cool-retro-term](https://github.com/Swordfish90/cool-retro-term)  
+
+Frequently remember to update and upgrade your distribution:  
+`sudo apt-get update`  
+`sudo apt-get upgrade`  
