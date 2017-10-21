@@ -16,8 +16,18 @@ Install [Git](https://git-scm.com/):
 Install [Vim](http://www.vim.org/):  
 `sudo apt-get install vim`
 
-Instal [Ruby](https://www.ruby-lang.org):  
+Install [Ruby](https://www.ruby-lang.org):  
 `sudo apt-get install ruby-full`
+
+Install [Java](https://www.digitalocean.com/community/tutorials/como-instalar-o-java-com-apt-get-no-ubuntu-16-04-pt):  
+`sudo add-apt-repository ppa:webupd8team/java`    
+`sudo apt-get update`  
+`sudo apt-get install oracle-java8-installer`
+
+Install [MySQL](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04):  
+`sudo apt-get update`  
+`sudo apt-get install mysql-server`  
+`mysql_secure_installation`  
 
 Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH):  
 `sudo apt-get install zsh`
@@ -47,23 +57,29 @@ Install [NVM](https://github.com/creationix/nvm):
 `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash`
 
 Install [Yarn](https://yarnpkg.com/lang/en/docs/install/):  
-```
-curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list  
-sudo apt-get update && sudo apt-get install yarn
-```
+`curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`  
+`sudo apt-get update && sudo apt-get install yarn`
+
+Install programs:  
+- [Code](https://code.visualstudio.com/)
+- [Insonia](https://insomnia.rest/)  
+- [Slack](https://slack.com/downloads/linux)  
+- [Spotify](https://www.spotify.com/br/download/linux/)  
+
+Install browsers:  
+- [Chrome](https://www.google.com.br/chrome/browser/desktop/index.html)  
+- [Firefox (Dev)](https://www.mozilla.org/pt-BR/firefox/developer/)  
+- [Opera](http://www.opera.com/pt-br)  
 
 Add ssh for github:  
 https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/  
 https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
-Clone github projects  
+Clone your github projects!  
 
-Install programs:  
-Slack | Spotify | Code | Insonia  
-
-Install browsers:  
-Chrome | Firefox (Dev) | Opera  
+Utils:  
+Install [htop](http://hisham.hm/htop/)
 
 For fun:  
 Install [cmatrix](http://www.asty.org/cmatrix/)  
