@@ -61,6 +61,15 @@ Install [Yarn](https://yarnpkg.com/lang/en/docs/install/):
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`  
 `sudo apt-get update && sudo apt-get install yarn`
 
+Install [pip](https://www.saltycrane.com/blog/2010/02/how-install-pip-ubuntu/)  
+`sudo apt-get install python-setuptools python-dev build-essential`  
+`sudo easy_install pip`  
+`sudo pip install --upgrade virtualenv`   
+
+Install [AWS cli](http://docs.aws.amazon.com/pt_br/cli/latest/userguide/installing.html)  
+`pip install awscli --upgrade --user`  
+and configure [aws credentials](http://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-getting-started.html)  
+
 Install programs:  
 - [Code](https://code.visualstudio.com/)
 - [Insonia](https://insomnia.rest/)  
