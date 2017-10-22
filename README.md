@@ -19,6 +19,9 @@ Install [Vim](http://www.vim.org/):
 Install [Ruby](https://www.ruby-lang.org):  
 `sudo apt-get install ruby-full`
 
+Install [Maven](http://www.mkyong.com/maven/how-to-install-maven-in-ubuntu/):  
+`sudo apt-get install maven`  
+
 Install [Java](https://www.digitalocean.com/community/tutorials/como-instalar-o-java-com-apt-get-no-ubuntu-16-04-pt):  
 `sudo add-apt-repository ppa:webupd8team/java`    
 `sudo apt-get update`  
