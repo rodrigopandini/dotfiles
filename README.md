@@ -14,7 +14,17 @@ Install [Git](https://git-scm.com/):
 `sudo apt-get install git`
 
 Install [Vim](http://www.vim.org/):  
-`sudo apt-get install vim`
+`sudo apt-get install vim`  
+
+Install [vim-pathogen](https://github.com/tpope/vim-pathogen):  
+`mkdir -p ~/.vim/autoload ~/.vim/bundle`  
+`curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim`  
+
+Install [base16-vim](https://github.com/chriskempson/base16-vim):  
+`git clone https://github.com/chriskempson/base16-vim.git ~/.vim/bundle/base16-vim`  
+
+Install [NERDTree](https://github.com/scrooloose/nerdtree):  
+`git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree`
 
 Install [Ruby](https://www.ruby-lang.org):  
 `sudo apt-get install ruby-full`
