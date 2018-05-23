@@ -51,7 +51,14 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(
+  git 
+  docker
+  docker-compose
+  zsh-autosuggestions
+  yarn-autocompletions
+  #zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -84,22 +91,51 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# set vim as default editor
 export EDITOR='vim'
 
+# load tmuxinator tools
 source ~/.bin/tmuxinator.zsh
 
+# set BASE16 shell
 BASE16_SHELL=$HOME/.config/base16-shell/
 [ -n "$PS1" ] && [ -s $BASE16_SHELL/profile_helper.sh ] && eval "$($BASE16_SHELL/profile_helper.sh)"
 
+# disable auto title option
 DISABLE_AUTO_TITLE=true
 
+# load NVM (node version manager)
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias chrome="/usr/bin/google-chrome"
+# set JAVA sdk home path
+export JAVA_SDK_HOME=/home/pandini/libs/aws-java-sdk/lib/
 
-alias mix="mux idex"
+# set GRADLE home path
+export GRADLE_USER_HOME=~/.gradle
+
+# set Android SDK Tools paths
+export ANDROID_HOME=${HOME}/Android/Sdk
+export PATH="${ANDROID_HOME}/tools:${PATH}"
+export PATH="${ANDROID_HOME}/emulator:${PATH}"
+export PATH="${ANDROID_HOME}/platform-tools:${PATH}"
+
+# set Golang paths
+export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$(go env GOPATH)/bin
+export GOPATH=$(go env GOPATH)
+
+# set some alias
+alias chrome="/usr/bin/google-chrome"
 alias tks="tmux kill-server"
 alias gtl="git log --graph --full-history --all --color --pretty=format:'%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s'"
 alias cool="$HOME/cool-retro-term/cool-retro-term"
+alias rdm="source /opt/qt59/bin/qt59-env.sh && /usr/share/redis-desktop-manager/bin/rdm"
+alias swaggymnia="/home/pandini/swagger/swaggymnia"
+alias ngrok="/home/pandini/.bin/ngrok"
+# tmuxinator alias
+alias mix="mux idex"
+alias mc2="mux c2"
+alias mc3="mux c3"
+alias mc4="mux c4"
