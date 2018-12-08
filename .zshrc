@@ -104,36 +104,12 @@ BASE16_SHELL=$HOME/.config/base16-shell/
 # disable auto title option
 DISABLE_AUTO_TITLE=true
 
-# load NVM (node version manager)
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
-# set JAVA sdk home path
-export JAVA_SDK_HOME=/home/pandini/libs/aws-java-sdk/lib/
-
-# set GRADLE home path
-export GRADLE_USER_HOME=~/.gradle
-
-# set Android SDK Tools paths
-export ANDROID_HOME=${HOME}/Android/Sdk
-export PATH="${ANDROID_HOME}/tools:${PATH}"
-export PATH="${ANDROID_HOME}/emulator:${PATH}"
-export PATH="${ANDROID_HOME}/platform-tools:${PATH}"
-
-# set Golang paths
-export PATH=$PATH:/usr/local/go/bin
-export PATH=$PATH:$(go env GOPATH)/bin
-export GOPATH=$(go env GOPATH)
-
 # set some alias
 alias chrome="/usr/bin/google-chrome"
 alias tks="tmux kill-server"
 alias gtl="git log --graph --full-history --all --color --pretty=format:'%x1b[31m%h%x09%x1b[32m%d%x1b[0m%x20%s'"
 alias cool="$HOME/cool-retro-term/cool-retro-term"
-alias rdm="source /opt/qt59/bin/qt59-env.sh && /usr/share/redis-desktop-manager/bin/rdm"
-alias swaggymnia="/home/pandini/swagger/swaggymnia"
-alias ngrok="/home/pandini/.bin/ngrok"
+
 # tmuxinator alias
 alias mix="mux idex"
 alias mc2="mux c2"
