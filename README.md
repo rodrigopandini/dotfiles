@@ -94,7 +94,10 @@ Install programs:
 Install browsers:  
 - [Chrome](https://www.google.com.br/chrome/browser/desktop/index.html)  
 
-Clone your github projects!  
+
+**--> Clone your github projects!**  
+
+----
 
 Utils:  
 Install [htop](http://hisham.hm/htop/)
@@ -104,6 +107,8 @@ Install [irssi](https://irssi.org/)
 Install [cmus](https://cmus.github.io/)  
 Install [cmatrix](http://www.asty.org/cmatrix/)  
 Install [cool-retro-term](https://github.com/Swordfish90/cool-retro-term)  
+
+----
 
 Frequently remember to update and upgrade your distribution:  
 `sudo apt-get update`  
