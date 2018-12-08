@@ -13,6 +13,10 @@ Install [cURL](https://curl.haxx.se/):
 Install [Git](https://git-scm.com/):  
 `sudo apt-get install git`
 
+Create new SSH Key in GitHub:  
+https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/  
+https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/  
+
 Install [Vim](http://www.vim.org/):  
 `sudo apt-get install vim`  
 
