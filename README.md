@@ -37,11 +37,6 @@ Install [Java](https://www.digitalocean.com/community/tutorials/como-instalar-o-
 `sudo apt-get update`  
 `sudo apt-get install oracle-java8-installer`
 
-Install [MySQL](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04):  
-`sudo apt-get update`  
-`sudo apt-get install mysql-server`  
-`mysql_secure_installation`  
-
 Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH):  
 `sudo apt-get install zsh`
 
