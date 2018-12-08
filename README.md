@@ -50,8 +50,8 @@ Install [tmuxinator](https://github.com/tmuxinator/tmuxinator):
 `gem install tmuxinator`
 
 Make folders:  
-`sudo mkdir projects && cd`  
-`sudo mkdir me && cd`
+`mkdir projects && cd $_`  
+`mkdir me && cd $_`
 
 Clone [dotfiles](https://github.com/rodrigopandini/dotfiles) repo:  
 `sudo git clone git@github.com:rodrigopandini/dotfiles.git`  
