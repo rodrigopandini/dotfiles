@@ -1,5 +1,5 @@
 # dotfiles
-My dotfiles
+My dotfiles :)
 
 ## Instructions
 Terminal -> Profile Preferences:
@@ -13,7 +13,7 @@ Install [cURL](https://curl.haxx.se/):
 Install [Git](https://git-scm.com/):  
 `sudo apt-get install git`
 
-Create new SSH Key in GitHub:  
+Create new SSH Key to add in GitHub:  
 https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/  
 https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/  
 
@@ -36,10 +36,9 @@ Install [Ruby](https://www.ruby-lang.org):
 Install [Maven](http://www.mkyong.com/maven/how-to-install-maven-in-ubuntu/):  
 `sudo apt-get install maven`  
 
-Install [Java](https://www.digitalocean.com/community/tutorials/como-instalar-o-java-com-apt-get-no-ubuntu-16-04-pt):  
-`sudo add-apt-repository ppa:webupd8team/java`    
-`sudo apt-get update`  
-`sudo apt-get install oracle-java8-installer`
+Install [Java](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04):  
+`sudo apt install default-jre`    
+`sudo apt install default-jdk`  
 
 Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH):  
 `sudo apt-get install zsh`
@@ -56,10 +55,15 @@ Install [tmuxinator](https://github.com/tmuxinator/tmuxinator):
 Make folders:  
 `mkdir projects && cd $_`  
 `mkdir me && cd $_`
-
 Clone [dotfiles](https://github.com/rodrigopandini/dotfiles) repo:  
 `sudo git clone git@github.com:rodrigopandini/dotfiles.git`  
-and copy files to /home folder
+and copy files the folling files to /home folder:  
+  - .zshrc
+  - .vimrc_background
+  - .vimrc
+  - .tmux.conf
+  - .tmuxinator/
+After, type `source ~/.zshrc` to reload zsh configurations.  
 
 Clone [base16-shell](https://github.com/chriskempson/base16-shell) repo:  
 `git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell`  
@@ -86,16 +90,9 @@ Install programs:
 - [Code](https://code.visualstudio.com/)
 - [Insonia](https://insomnia.rest/)  
 - [Slack](https://slack.com/downloads/linux)  
-- [Spotify](https://www.spotify.com/br/download/linux/)  
 
 Install browsers:  
 - [Chrome](https://www.google.com.br/chrome/browser/desktop/index.html)  
-- [Firefox (Dev)](https://www.mozilla.org/pt-BR/firefox/developer/)  
-- [Opera](http://www.opera.com/pt-br)  
-
-Add ssh for github:  
-https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/  
-https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/
 
 Clone your github projects!  
 
@@ -103,6 +100,8 @@ Utils:
 Install [htop](http://hisham.hm/htop/)
 
 For fun:  
+Install [irssi](https://irssi.org/)  
+Install [cmus](https://cmus.github.io/)  
 Install [cmatrix](http://www.asty.org/cmatrix/)  
 Install [cool-retro-term](https://github.com/Swordfish90/cool-retro-term)  
 
