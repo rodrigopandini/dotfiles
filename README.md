@@ -95,12 +95,14 @@ Install programs:
 - [Android Studio](https://developer.android.com/studio/)  
 - [intellij](https://www.jetbrains.com/idea/download/#section=linux)
 - [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/wb-installing-linux.html)  
+- [VirtalBox](https://www.virtualbox.org/wiki/Linux_Downloads)  
+- [Genymotion](https://www.genymotion.com/download/)  
 
 Install browsers:  
 - [Chrome](https://www.google.com.br/chrome/browser/desktop/index.html)  
 
 
-**--> Clone your github projects!**  
+**Clone your github projects!**  
 
 ----
 
