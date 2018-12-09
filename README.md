@@ -86,10 +86,15 @@ Install [AWS cli](http://docs.aws.amazon.com/pt_br/cli/latest/userguide/installi
 `pip install awscli --upgrade --user`  
 and configure [aws credentials](http://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-getting-started.html)  
 
+Install [golang](https://golang.org/doc/install)  
+
 Install programs:  
 - [Code](https://code.visualstudio.com/)
 - [Insonia](https://insomnia.rest/)  
 - [Slack](https://slack.com/downloads/linux)  
+- [Android Studio](https://developer.android.com/studio/)  
+- [intellij](https://www.jetbrains.com/idea/download/#section=linux)
+- [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/wb-installing-linux.html)  
 
 Install browsers:  
 - [Chrome](https://www.google.com.br/chrome/browser/desktop/index.html)  
