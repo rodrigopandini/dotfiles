@@ -54,7 +54,7 @@ Install [tmuxinator](https://github.com/tmuxinator/tmuxinator):
 
 Make folders:  
 `mkdir projects && cd $_`  
-`mkdir me && cd $_`
+`mkdir me && cd $_`  
 Clone [dotfiles](https://github.com/rodrigopandini/dotfiles) repo:  
 `sudo git clone git@github.com:rodrigopandini/dotfiles.git`  
 and copy files the folling files to /home folder:  
@@ -87,6 +87,9 @@ Install [AWS cli](http://docs.aws.amazon.com/pt_br/cli/latest/userguide/installi
 and configure [aws credentials](http://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-getting-started.html)  
 
 Install [golang](https://golang.org/doc/install)  
+
+Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)  
+Install [kubectx e kubens](https://github.com/ahmetb/kubectx)  
 
 Install programs:  
 - [Code](https://code.visualstudio.com/)
