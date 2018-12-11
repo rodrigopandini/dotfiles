@@ -55,6 +55,7 @@ Install [tmuxinator](https://github.com/tmuxinator/tmuxinator):
 Make folders:  
 `mkdir projects && cd $_`  
 `mkdir me && cd $_`  
+
 Clone [dotfiles](https://github.com/rodrigopandini/dotfiles) repo:  
 `sudo git clone git@github.com:rodrigopandini/dotfiles.git`  
 and copy files the folling files to /home folder:  
