@@ -63,7 +63,7 @@ and copy files the folling files to /home folder:
   - .vimrc_background
   - .vimrc
   - .tmux.conf
-  - .tmuxinator/
+  - .tmuxinator/  
 After, type `source ~/.zshrc` to reload zsh configurations.  
 
 Clone [base16-shell](https://github.com/chriskempson/base16-shell) repo:  
