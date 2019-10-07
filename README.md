@@ -58,7 +58,7 @@ Make folders:
 
 Clone [dotfiles](https://github.com/rodrigopandini/dotfiles) repo:  
 `sudo git clone git@github.com:rodrigopandini/dotfiles.git`  
-and copy files the folling files to /home folder:  
+and copy files the following files to /home folder:  
   - .zshrc
   - .vimrc_background
   - .vimrc
