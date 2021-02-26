@@ -3,9 +3,11 @@ My dotfiles :)
 
 ## Instructions
 Terminal -> Profile Preferences:
+- Rename: "all-"
 - Pallete: Solarized 
 - Use transparent background: ~15%
 - Text color: #1ec503
+- Background color: #000000
 
 Install [cURL](https://curl.haxx.se/):  
 `sudo apt-get install curl`
@@ -30,16 +32,6 @@ Install [base16-vim](https://github.com/chriskempson/base16-vim):
 Install [NERDTree](https://github.com/scrooloose/nerdtree):  
 `git clone https://github.com/scrooloose/nerdtree.git ~/.vim/bundle/nerdtree`
 
-Install [Ruby](https://www.ruby-lang.org):  
-`sudo apt-get install ruby-full`
-
-Install [Maven](http://www.mkyong.com/maven/how-to-install-maven-in-ubuntu/):  
-`sudo apt-get install maven`  
-
-Install [Java](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04):  
-`sudo apt install default-jre`    
-`sudo apt install default-jdk`  
-
 Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH):  
 `sudo apt-get install zsh`
 
@@ -49,6 +41,20 @@ Install [Oh My ZSH](http://ohmyz.sh/):
 Install [tmux](https://github.com/tmux/tmux/wiki):  
 `sudo apt-get install tmux`
 
+(optional)
+Install [Ruby](https://www.ruby-lang.org):  
+`sudo apt-get install ruby-full`
+
+(optional)
+Install [Maven](http://www.mkyong.com/maven/how-to-install-maven-in-ubuntu/):  
+`sudo apt-get install maven`  
+
+(optional)
+Install [Java](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04):  
+`sudo apt install default-jre`    
+`sudo apt install default-jdk`  
+
+(optional)
 Install [tmuxinator](https://github.com/tmuxinator/tmuxinator):  
 `gem install tmuxinator`
 
@@ -57,8 +63,8 @@ Make folders:
 `mkdir me && cd $_`  
 
 Clone [dotfiles](https://github.com/rodrigopandini/dotfiles) repo:  
-`sudo git clone git@github.com:rodrigopandini/dotfiles.git`  
-and copy files the following files to /home folder:  
+`git clone git@github.com:rodrigopandini/dotfiles.git`  
+and copy files the following files to your `/home` folder:  
   - .zshrc
   - .vimrc_background
   - .vimrc
