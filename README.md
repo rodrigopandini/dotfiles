@@ -74,7 +74,7 @@ After, type `source ~/.zshrc` to reload zsh configurations.
 
 Clone [base16-shell](https://github.com/chriskempson/base16-shell) repo:  
 `git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell`  
-and type `base16_default_dark` to use "default dark theme"
+and type `base16_default-dark` to use "default dark theme"
 
 Install [NVM](https://github.com/creationix/nvm):  
 `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash`
