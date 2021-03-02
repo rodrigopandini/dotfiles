@@ -3,7 +3,7 @@ My dotfiles :)
 
 ## Instructions
 Terminal -> Profile Preferences:
-- Rename: "all-"
+- Rename: "matrix"
 - Pallete: Solarized 
 - Use transparent background: ~15%
 - Text color: #1ec503
@@ -38,6 +38,10 @@ Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH):
 Install [Oh My ZSH](http://ohmyz.sh/):  
 `sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
+Clone [base16-shell](https://github.com/chriskempson/base16-shell):  
+`git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell`  
+and type `base16_default-dark` to use "default dark theme"
+
 Install [tmux](https://github.com/tmux/tmux/wiki):  
 `sudo apt-get install tmux`
 
@@ -70,11 +74,7 @@ and copy files the following files to your `/home` folder:
   - .vimrc
   - .tmux.conf
   - .tmuxinator/  
-After, type `source ~/.zshrc` to reload zsh configurations.  
-
-Clone [base16-shell](https://github.com/chriskempson/base16-shell) repo:  
-`git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell`  
-and type `base16_default-dark` to use "default dark theme"
+After, type `source ~/.zshrc` to reload zsh configurations.
 
 Install [NVM](https://github.com/creationix/nvm):  
 `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash`
