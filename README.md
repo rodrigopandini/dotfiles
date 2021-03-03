@@ -45,22 +45,16 @@ and type `base16_default-dark` to use "default dark theme"
 Install [tmux](https://github.com/tmux/tmux/wiki):  
 `sudo apt-get install tmux`
 
-(optional)
-Install [Ruby](https://www.ruby-lang.org):  
-`sudo apt-get install ruby-full`
+Install [golang](https://golang.org/doc/install)  
 
-(optional)
-Install [Maven](http://www.mkyong.com/maven/how-to-install-maven-in-ubuntu/):  
-`sudo apt-get install maven`  
+Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)  
+Install [kubectx e kubens](https://github.com/ahmetb/kubectx)  
 
-(optional)
-Install [Java](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04):  
-`sudo apt install default-jre`    
-`sudo apt install default-jdk`  
+Install programs:  
+- [Code](https://code.visualstudio.com/)
+- [Insonia](https://insomnia.rest/)  
+- [Slack](https://slack.com/downloads/linux)  
 
-(optional)
-Install [tmuxinator](https://github.com/tmuxinator/tmuxinator):  
-`gem install tmuxinator`
 
 Make folders:  
 `mkdir projects && cd $_`  
@@ -76,45 +70,40 @@ and copy files the following files to your `/home` folder:
   - .tmuxinator/  
 After, type `source ~/.zshrc` to reload zsh configurations.
 
+
+
+**Clone your github projects!**  
+
+------
+
+(optional)
+Install [Ruby](https://www.ruby-lang.org):  
+`sudo apt-get install ruby-full`
+
+(optional)
+Install [Maven](http://www.mkyong.com/maven/how-to-install-maven-in-ubuntu/):  
+`sudo apt-get install maven`  
+
+(optional)
+Install [Java](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-ubuntu-18-04):  
+`sudo apt install default-jre`    
+`sudo apt install default-jdk`  
+
+(optional)
 Install [NVM](https://github.com/creationix/nvm):  
 `curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.5/install.sh | bash`
 
-Install [Yarn](https://yarnpkg.com/lang/en/docs/install/):  
-`curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list`  
-`sudo apt-get update && sudo apt-get install yarn`
-
+(optional)
 Install [pip](https://www.saltycrane.com/blog/2010/02/how-install-pip-ubuntu/)  
 `sudo apt-get install python-setuptools python-dev build-essential`  
 `sudo easy_install pip`  
 `sudo pip install --upgrade virtualenv`   
 
-Install [AWS cli](http://docs.aws.amazon.com/pt_br/cli/latest/userguide/installing.html)  
-`pip install awscli --upgrade --user`  
-and configure [aws credentials](http://docs.aws.amazon.com/pt_br/cli/latest/userguide/cli-chap-getting-started.html)  
+(optional)
+Install [tmuxinator](https://github.com/tmuxinator/tmuxinator):  
+`gem install tmuxinator`
 
-Install [golang](https://golang.org/doc/install)  
-
-Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)  
-Install [kubectx e kubens](https://github.com/ahmetb/kubectx)  
-
-Install programs:  
-- [Code](https://code.visualstudio.com/)
-- [Insonia](https://insomnia.rest/)  
-- [Slack](https://slack.com/downloads/linux)  
-- [Android Studio](https://developer.android.com/studio/)  
-- [intellij](https://www.jetbrains.com/idea/download/#section=linux)
-- [MySQL Workbench](https://dev.mysql.com/doc/workbench/en/wb-installing-linux.html)  
-- [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)  
-- [Genymotion](https://www.genymotion.com/download/)  
-
-Install browsers:  
-- [Chrome](https://www.google.com.br/chrome/browser/desktop/index.html)  
-
-
-**Clone your github projects!**  
-
-----
+------
 
 Utils:  
 Install [htop](http://hisham.hm/htop/)
