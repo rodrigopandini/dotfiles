@@ -47,8 +47,13 @@ Install [tmux](https://github.com/tmux/tmux/wiki):
 
 Install [golang](https://golang.org/doc/install)  
 
+Install [docker](https://docs.docker.com/engine/install/ubuntu/)
+
+Install [docker-compose](https://docs.docker.com/compose/install/)
+
+Install [docker-compose completion](https://docs.docker.com/compose/completion/)
+
 Install [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)  
-Install [kubectx e kubens](https://github.com/ahmetb/kubectx)  
 
 Install programs:  
 - [Code](https://code.visualstudio.com/)
