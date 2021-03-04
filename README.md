@@ -38,6 +38,9 @@ Install [ZSH](https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH):
 Install [Oh My ZSH](http://ohmyz.sh/):  
 `sudo sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
 
+Install oh-my-zsh custom plugins:  
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+
 Clone [base16-shell](https://github.com/chriskempson/base16-shell):  
 `git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell`  
 and type `base16_default-dark` to use "default dark theme"
