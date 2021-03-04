@@ -51,6 +51,7 @@ Install [tmux](https://github.com/tmux/tmux/wiki):
 Install [golang](https://golang.org/doc/install)  
 
 Install [docker](https://docs.docker.com/engine/install/ubuntu/)
+([Post install linux](https://docs.docker.com/engine/install/linux-postinstall/))
 
 Install [docker-compose](https://docs.docker.com/compose/install/)
 
